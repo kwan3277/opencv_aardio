@@ -1,13 +1,14 @@
 # opencv_aardio
 dll库下载地址：[Releases · xuncv/opencv_aardio (github.com)](https://github.com/xuncv/opencv_aardio/releases)
+放置于项目目录\lib\cv2\.res\目录下
 
 ###### DEMO
 ```
 import cv2
-img = cv2.imread("./Lena.jpg",1)
+img = cv2.imread("./images/Lena.jpg",1)
 img = cv2.medianBlur(img,5)
 cv2.imshow( "窗口标题",img )
-cv2.imwrite("result.jpg",img)
+cv2.imwrite("./images/result.jpg",img)
 cv2.waitKey(0)
 ```
 
